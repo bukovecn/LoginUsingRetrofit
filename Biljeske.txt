@@ -1,0 +1,16 @@
+LoginForm using Retrofit
+
+Retrofit - REST servis za pozivanje vanjskog web servisa
+
+Potrebno:
+- implemetirati (vanjski) web servis koji æe vraæati podatke iz baze (u ovm sluèaju username, pass,..) --> vraæa json format - tehnologije: npr. Laravel, Spring Boot, Java,...
+- testirati preko Postmana
+- za baseUrl postaviti adresu tog web servisa (hardkodirano ili spremiti u bazi)
+- uz pomoæ Retrofita pozivati taj web servis u androidu
+- suèelje za app
+
+Pomoæ: 
+- tutorijali API: https://www.youtube.com/watch?v=kxKwuUOLGEc&list=PLk7v1Z2rk4hhGfJw-IQCm6kjywmuJX4Rh
+- login: https://www.youtube.com/watch?v=j0wH0m_xYLs&list=PLk7v1Z2rk4hhGfJw-IQCm6kjywmuJX4Rh&index=15
+- REST web service for login data : https://www.youtube.com/watch?v=b7GPq6xUjfE
+- primjer: https://www.jackrutorial.com/2018/02/build-an-android-application-for-user-login-using-restful-web-services-with-retrofit-2-android-tutorial.html
